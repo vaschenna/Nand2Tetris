@@ -1,0 +1,49 @@
+$date
+	Thu Sep 25 01:48:07 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module Not16_tb $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " in [15:0] $end
+$scope module uut $end
+$var wire 16 # in [15:0] $end
+$var wire 16 $ out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b1111111111111111 $
+b0 #
+b0 "
+b1111111111111111 !
+$end
+#20
+b0 !
+b0 $
+b1111111111111111 "
+b1111111111111111 #
+#40
+b101010101010101 !
+b101010101010101 $
+b1010101010101010 "
+b1010101010101010 #
+#60
+b1100001100111100 !
+b1100001100111100 $
+b11110011000011 "
+b11110011000011 #
+#80
+b1110110111001011 !
+b1110110111001011 $
+b1001000110100 "
+b1001000110100 #
+#100
