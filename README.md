@@ -24,7 +24,7 @@ Steps:
 2. Run simulation:
 
     ```bash
-    vvp chip_test
+    vvp chip_tb
     ```
 
 Open the generated .vcd file in [EPWave](https://www.edaplayground.com/w/home) or any other waveform viewer.
