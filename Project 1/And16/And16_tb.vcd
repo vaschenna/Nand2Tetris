@@ -1,0 +1,62 @@
+$date
+	Thu Sep 25 17:03:03 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module And16_tb $end
+$var wire 16 ! out [15:0] $end
+$var reg 16 " a [15:0] $end
+$var reg 16 # b [15:0] $end
+$scope module uut $end
+$var wire 16 $ a [15:0] $end
+$var wire 16 % b [15:0] $end
+$var wire 16 & out [15:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#20
+b111000111000111 #
+b111000111000111 %
+#40
+b111000111000111 !
+b111000111000111 &
+b111000111000111 "
+b111000111000111 $
+#60
+b111001000010000 !
+b111001000010000 &
+b111111010110101 #
+b111111010110101 %
+b1111001100010010 "
+b1111001100010010 $
+#80
+b101010001000000 !
+b101010001000000 &
+b1111110101110000 #
+b1111110101110000 %
+b101010011001011 "
+b101010011001011 $
+#100
+b100000010100 !
+b100000010100 &
+b110100001011110 #
+b110100001011110 %
+b1000100000010100 "
+b1000100000010100 $
+#120
