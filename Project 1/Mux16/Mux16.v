@@ -4,6 +4,8 @@ module Mux16(a,b,sel,out);
     input sel;
     output [15:0] out;
 
-    assign out = sel ? b : a;
+    //assign out = sel ? b : a;
+    assign out = (a & ~sel) | (b & sel);
+
     
 endmodule
