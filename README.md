@@ -11,23 +11,15 @@ This repository documents my journey through the **Nand2Tetris course**, where I
 I use Icarus Verilog (Iverilog) within VS Code to write and compile the Verilog files into .vcd waveform files.
 Waveforms are then visualized using EPWave to simulate and debug logic.
 
-Steps:
-
 1. Compile a Verilog file:
     
     ```bash
     iverilog -o chip_tb.vvp chip_tb.v
     vvp chip_tb.vvp
     ```
-    
-
 2. Run simulation:
 
-    ```bash
-    vvp chip_tb.vvp
-    ```
-
-Open the generated .vcd file in [EPWave](https://www.edaplayground.com/w/home) or any other waveform viewer.
+    Open the generated .vcd file in [EPWave](https://www.edaplayground.com/w/home) or any other waveform viewer.
 
 ### Future Work
 
