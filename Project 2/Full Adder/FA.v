@@ -1,9 +1,9 @@
-module FullAdder(a,b,c,sum,carry);
+module FullAdder(a,b,cin,sum,cout);
 
-    input a,b,c;
-    output sum, carry;
+    input a,b,cin;
+    output sum, cout;
 
-    assign sum = (((a & ~b) | (~a & b)) & ~ c) | (~((a & ~b) | (~a & b)) & c);
-    assign carry = (((a & b) | (a & c)) | (b & c));
+    assign sum = (((a & ~b) | (~a & b)) & ~ cin) | (~((a & ~b) | (~a & b)) & cin);
+    assign ccout = (((a & b) | (a & cin)) | (b & cin));
 
 endmodule

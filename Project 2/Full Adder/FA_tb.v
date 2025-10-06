@@ -3,24 +3,24 @@
 
 module FullAdder_tb;
 
-    reg a,b,c;
-    wire sum, carry;
+    reg a,b,cin;
+    wire sum, cout;
 
-    FullAdder uut(a,b,c,sum,carry);
+    FullAdder uut(a,b,cin,sum,cout);
 
     initial begin
 
         $dumpfile("FA_tb.vcd");
         $dumpvars(0, FullAdder_tb);
 
-        {a,b,c} = 3'b000; #20;
-        {a,b,c} = 3'b001; #20;
-        {a,b,c} = 3'b010; #20;
-        {a,b,c} = 3'b011; #20;
-        {a,b,c} = 3'b100; #20;
-        {a,b,c} = 3'b101; #20;
-        {a,b,c} = 3'b110; #20;
-        {a,b,c} = 3'b111; #20;
+        {a,b,cin} = 3'b000; #20;
+        {a,b,cin} = 3'b001; #20;
+        {a,b,cin} = 3'b010; #20;
+        {a,b,cin} = 3'b011; #20;
+        {a,b,cin} = 3'b100; #20;
+        {a,b,cin} = 3'b101; #20;
+        {a,b,cin} = 3'b110; #20;
+        {a,b,cin} = 3'b111; #20;
 
         $display("Test Complete");
 
